@@ -1,0 +1,105 @@
+/* Full page background */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* 👈 put your image in public/bg-login.jpg */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Glassy Grey Box */
+.login-box {
+  background: rgba(5, 1, 1, 0.3); /* grey transparent */
+  backdrop-filter: blur(11px); /* blur background */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* thin border for glassy effect */
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f1f1f1; /* light text for contrast */
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2); /* transparent inputs */
+  color: white;
+  outline: none;
+}
+
+.login-box input::placeholder {
+  color: #e0e0e0;
+}
+/* Links */
+.login-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Normal state */
+.login-links a {
+  display: block;
+  color: #bb4545;  /* bright white */
+  text-decoration: none;
+  margin-top: 5px;
+  font-weight: 500;
+  text-shadow: 0px 0px 3px rgba(153, 150, 150, 0.5); /* slight glow for readability */
+}
+
+/* Hover state */
+.login-links a:hover {
+  color: #171613; /* yellow hover for visibility */
+  text-decoration: underline;
+}
+
+/* Login button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(0, 128, 0, 0.8);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-box button:hover {
+  background-color: rgba(0, 128, 0, 1);
+}
+
+/* Links */
+.login-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-links a {
+  display: block;
+  color: #aad4ff;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}

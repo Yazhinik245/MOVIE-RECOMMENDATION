@@ -1,0 +1,67 @@
+/* Full page background */
+.forgot-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://plus.unsplash.com/premium_photo-1676049461933-28e3e6ee359c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dps://images.unsplash.com/photo-1578849278619-e73505e9610f?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* 👈 put your image in public folder */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Glassy grey box */
+.forgot-box {
+  background: rgba(14, 8, 8, 0.15);  /* transparent white */
+  backdrop-filter: blur(15px);            /* glass blur effect */
+  -webkit-backdrop-filter: blur(15px);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(15, 10, 10, 0.2);
+  width: 350px;
+  text-align: center;
+  color: #0f0808;
+}
+
+/* Title */
+.forgot-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #000000;
+}
+
+/* Input field */
+.forgot-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  font-size: 14px;
+}
+
+/* Placeholder color */
+.forgot-box input::placeholder {
+  color: rgba(9, 2, 2, 0.7);
+}
+
+/* Next button */
+.forgot-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff9900; /* orange */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.forgot-box button:hover {
+  background-color: #e68a00;
+}

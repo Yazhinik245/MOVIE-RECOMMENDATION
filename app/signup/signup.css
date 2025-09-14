@@ -1,0 +1,84 @@
+/* Make the background cover the entire viewport */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.signup-container {
+  height: 100vh; /* full height */
+  width: 100%; /* full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('https://wallpapercave.com/wp/wp1945909.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+input::placeholder {
+  color: white;
+  opacity: 1; /* Makes sure it's not faded */
+}
+body {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Optional hover effect */
+}
+.white-link {
+  color: white;
+  text-decoration: none;
+}
+
+.white-link:hover {
+  text-decoration: underline;
+}
+
+.signup-form {
+  background-color: rgba(166, 163, 163, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  background: rgba(24, 22, 22, 0.2); /* white with 20% opacity */
+backdrop-filter: blur(10px); /* blur for glass effect */
+-webkit-backdrop-filter: blur(10px); /* for Safari */
+border: 1px solid rgba(168, 158, 158, 0.3); /* soft border */
+
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ebe3e3;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #005bb5;
+}
